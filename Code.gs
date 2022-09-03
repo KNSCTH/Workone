@@ -1,3 +1,4 @@
+<script>
 function doGet(e) {
   var htmlOutput =  HtmlService.createTemplateFromFile('index');
   htmlOutput.search='';
@@ -25,3 +26,4 @@ function getUrl(){
   return url;
    Logger.log(url)
 }
+</script>
