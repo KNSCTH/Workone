@@ -26,7 +26,7 @@ var sheetName = 'แผ่น1'
 function getData() {
   let ss = SpreadsheetApp.openById(id)
   let sh = ss.getSheetByName(sheetName)
-  let data = sh.getRange(3,3,1,14).getValues()
+  let data = sh.getRange(C3:P3).getValues()
   Logger.log(data)
 }
     </script>
